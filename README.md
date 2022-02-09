@@ -5,3 +5,6 @@ our study recommand eng all things, but can us korean.
 
 so that. let's start this.
 
+## History
+
+2022.02.08 update id sto159 is my previous account but i forgot another computer setting so that happen, but it doesn't matter.
