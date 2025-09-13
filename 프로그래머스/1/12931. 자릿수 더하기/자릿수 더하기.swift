@@ -1,15 +1,6 @@
 import Foundation
-
-func solution(_ n:Int) -> Int
-{
-    var answer:Int = 0
-    let translateStr = String(n)
-    
-    for index in translateStr {
-        if let tranInt = Int(String(index)) { 
-        answer += tranInt
-        }
-    }
-    
-    return answer
+func solution(_ n: Int) -> Int {
+    return String(n)
+        .compactMap { $0.wholeNumberValue } // 각 문자 → 숫자
+        .reduce(0, +) // 합계
 }
